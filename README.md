@@ -8,6 +8,15 @@ Podium
 [![Code Climate](https://codeclimate.com/github/bizley/yii2-podium/badges/gpa.svg)](https://codeclimate.com/github/bizley/yii2-podium)
 [![Yii2](https://img.shields.io/badge/Powered_by-Yii_Framework-green.svg?style=flat)](http://www.yiiframework.com/)
 
+Fork details
+------------
+
+This version of Yii2 Podium contains:
+
+ - Pre-release version of PodiumSluggableBehavior: added to source project but not released yet ([102|https://github.com/bizley/yii2-podium/issues/102])
+ - Simple events system: on roadmap for src project, just not implemented yet ([pull 116|https://github.com/bizley/yii2-podium/pull/116]).
+ - Hack that sets email address of Poduim users: waiting for fix ([107|https://github.com/bizley/yii2-podium/pull/107]).
+
 Yii 2 forum module
 ------------------
 
