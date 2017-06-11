@@ -1,5 +1,5 @@
 {
-    "name": "bizley/podium",
+    "name": "davidnewcomb/podium",
     "type": "yii2-extension",
     "description": "Yii 2 Forum Module.",
     "keywords": ["forum", "yii2", "extension", "podium", "module", "bootstrap", "bizley"],
