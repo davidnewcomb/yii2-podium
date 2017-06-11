@@ -721,6 +721,7 @@ class User extends UserActiveRecord
                 $newUser->status = self::STATUS_ACTIVE;
                 $newUser->role = self::ROLE_MEMBER;
                 $newUser->generateUsername();
+                $newUser->email = Yii::$app->user->identity->email;
                 if (!$newUser->save()) {
                     throw new Exception('Account creating error');
                 }
